@@ -3,10 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script defer src="script.js"></script>
     <title>Document</title>
 </head>
 <body>
-    <h1>Bonjour</h1>
+    <h1>Guess a number : THE GAME !</h1>
+    <p id="p_chiffre_a_deviner">
+        <label for="chiffre_a_deviner" id="label_chiffre_a_deviner">Joueur 1: Rentre le chiffre à deviner : </label>
+        <input id="chiffre_a_deviner">
+        <button id="btn_chiffre_a_deviner">Valider</button>
+    </p>
+
+    <h3 id="tentative"></h3>
+    
+
+    <p id="chiffre_html">Le chiffre à trouver se trouve entre : 0 &lt; ? &lt; 50</p>
+    <p>
+        <label for="guess" id="bouttonValiderGuess">Guess : </label><input id="guess">
+        <button id="btn_valider_guess">Valider</button>
+    </p>
+    <p id="indice"></p>
+    <script defer src="script.js"></script>
 </body>
 </html>
